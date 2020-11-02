@@ -8,9 +8,11 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="ext/bootstrap-4.5.3-dist/css/bootstrap.min.css">
+		<link href="ext/aos-master/dist/aos.css" rel="stylesheet">
+
 	</head>
 	<body>
-		<header style="background-image: url('images/bg-index.jpg');background-position: center; background-repeat: no-repeat;height: 60vh;">
+		<header data-aos="fade-down" data-aos-duration="2000" style="background-image: url('images/bg-index.jpg');background-position: center; background-repeat: no-repeat;height: 60vh;">
 			<div style="position: absolute;height: 60vh;width: 100%;background-color: #212529;opacity: 0.5;"></div>
 			<div class="container">
 				<div class="row d-flex align-content-center"  style="height: 60vh;">
@@ -30,11 +32,11 @@
 			<div class="container">
 				<div class="row d-flex no-gutters">
 					<div class="col-md-6 col-lg-6 d-flex" >
-						<img src = "images/sohcheefung.jpg" alt = "Soh Chee Fung" style="height: 400px;width: 320px; object-fit: cover" />
+						<img src = "images/sohcheefung.jpg" alt = "Soh Chee Fung" style="height: 400px;width: 320px; object-fit: cover" data-aos="fade-up-right" data-aos-duration="2000"/>
 					</div>
 					<div class="col-md-6 col-lg-6 pl-md-5 py-5">
 						<div class="row justify-content-start pb-3">
-							<div class="col-md-12">
+							<div class="col-md-12" data-aos="fade-up-left" data-aos-duration="2000">
 								<h1>LEADER</h1>
 								<h2>SOH CHEE FUNG</h2>
 								<br>
@@ -78,11 +80,11 @@
 			<div class="container">
 				<div class="row d-flex no-gutters">
 					<div class="col-md-6 col-lg-6 d-flex" >
-						<img src = "images/tanweidi.jpg" alt = "Tan Wei Di" style="height: 400px;width: 320px; object-fit: cover" />
+						<img src = "images/tanweidi.jpg" alt = "Tan Wei Di" style="height: 400px;width: 320px; object-fit: cover" data-aos="fade-up-right" data-aos-duration="2000" />
 					</div>
 					<div class="col-md-6 col-lg-6 pl-md-5 py-5">
 						<div class="row justify-content-start pb-3">
-							<div class="col-md-12">
+							<div class="col-md-12" data-aos="fade-up-left" data-aos-duration="2000">
 								<h1>MEMBER</h1>
 								<h2>TAN WEI DI</h2>
 								<br>
@@ -126,11 +128,11 @@
 			<div class="container">
 				<div class="row d-flex no-gutters">
 					<div class="col-md-6 col-lg-6 d-flex" >
-						<img src = "images/leejiajia.png" alt = "Lee Jia Jia" style="height: 400px;width: 320px; object-fit: cover" />
+						<img src = "images/leejiajia.png" alt = "Lee Jia Jia" style="height: 400px;width: 320px; object-fit: cover" data-aos="fade-up-right" data-aos-duration="2000" />
 					</div>
 					<div class="col-md-6 col-lg-6 pl-md-5 py-5">
 						<div class="row justify-content-start pb-3">
-							<div class="col-md-12">
+							<div class="col-md-12" data-aos="fade-up-left" data-aos-duration="2000">
 								<h1>MEMBER</h1>
 								<h2>LEE JIA JIA</h2>
 								<br>
@@ -171,5 +173,9 @@
         <hr>
 
 		<script src="ext/bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+		<script src="ext/aos-master/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
 	</body>
 </html>
